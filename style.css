@@ -1,0 +1,41 @@
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+.product {
+    width: 150px;
+    height: 240px;
+    border: 1px solid rgb(169, 168, 168);
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.mincontainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.counter{
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}

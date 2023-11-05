@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!---question no 1-->
+    <h1>ANSWER NO 1</h1>
+    <div class="mincontainer">
+        <div class="product" onclick="alert('thanks for purchaching')" >
+            <img src="imag/1.jpg" alt="" width="150px" height="150px">
+            <h3>mobile phone </h3>
+            <h2>90.00$</h2>
+        </div>
+        <div class="product" onclick="alert('thanks for purchaching')">
+            <img src="imag/2.jpg" alt="" width="150px" height="150px">
+            <h3>mobile phone </h3>
+            <h2>90.00$</h2>
+        </div>
+    </div>
+     <!---question no 2-->
+    <h1>ANSWER NO 2</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>John Doe</td>
+                    <td><button onclick="deleteRow(this)">Delete</button></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Jane Smith</td>
+                    <td><button onclick="deleteRow(this)">Delete</button></td>
+                </tr>
+                <!-- Add more student records here -->
+            </tbody>
+        </table>
+ <!---question no 3-->
+ <h1>ANSWER NO 3</h1>
+
+    <div class="product" >
+        <img
+         src="imag/2.jpg"
+          width="150px"
+           height="150px"
+            id="picture"
+             onmouseover="changeImage()"
+              onmouseout="reverceImage()">
+        <h3>mobile phone </h3>
+        <h2>90.00$</h2>
+    </div><br>
+ <!---question no 4-->
+ <h1>ANSWER NO 4</h1>
+
+ <div class="product" >
+    <h1 id="value" >0</h1>
+    <br><br>
+    <button class="counter" style="background-color: rgb(23, 133, 23);"
+    onclick="incress()">plus</button>
+    <button  class="counter"style="background-color: red ;" 
+    onclick="decress()" >minius</button>
+
+</div>
+
+        <script src="app.js"></script>
+</body>
+
+</html>
